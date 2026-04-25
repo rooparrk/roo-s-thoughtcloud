@@ -1,21 +1,53 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "roo's thoughtcloud"
+  title: "Roo's Thoughtcloud"
+  favicon: images/favicon.png
+  
   navbar:
+    logo: images/logo.png
+    title: "Roo's Thoughtcloud"
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "{{< fa house-chimney >}}"
+        href: index.qmd
+        aria-label: Home
+      - text: "About"
+        href: about.qmd
+        aria-label: About
+    right:
+      - text: "Projects"
+        menu:
+          - text: "Art Markets & the PEP Problem"
+            href: projects/art-pep/index.qmd
+          - text: "Trade-Based Money Laundering"
+            href: projects/tbml/index.qmd
+          - text: "Crypto & Financial Crime"
+            href: projects/crypto/index.qmd
+      - icon: linkedin
+        href: https://linkedin.com/in/roopa-kaustubha-rayudu-53ba5216b/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/rooparrk
+        aria-label: GitHub
+
+  page-footer:
+    center: |
+      <span class="footer-text">Roo's Thoughtcloud ☁️ · soft mind, sharp thinking · 2025</span>
 
 format:
   html:
     theme:
       - cosmo
-      - brand
+      - theme.scss
     css: styles.css
-    toc: true
+    toc: false
+    page-layout: full
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
 editor: visual
-
