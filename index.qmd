@@ -10,7 +10,6 @@ page-layout: full
   <!-- Soft cloud texture overlay -->
   <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 40%, rgba(253,246,238,0.35) 0%, transparent 60%), radial-gradient(ellipse at 75% 60%, rgba(200,160,200,0.25) 0%, transparent 55%);pointer-events:none;"></div>
 
-
   <!-- Hero content -->
   <div class="hero-content">
     <img
@@ -35,20 +34,32 @@ page-layout: full
 
 </section>
 
-<!-- WHO I AM — brief intro between hero and projects -->
+<!-- INTRO -->
 <div class="site-section" style="margin-top:4rem;margin-bottom:0;padding-bottom:0;">
   <div style="max-width:600px;">
     <p class="section-eyebrow">Hello</p>
     <h2 class="section-title" style="margin-bottom:1rem;">I'm Roopa — Roo.</h2>
     <p style="font-size:0.92rem;color:#4a5a6a;line-height:2;margin-bottom:0.8rem;">
-      Masters student at SMU (MITB, Fintech track), building toward a career in
-      <strong style="color:#2d3a4a;font-weight:500;">risk and financial crime              analytics</strong>, with an interest in the intersection of technology,              finance, and design.
+      Masters student at SMU, with an interest in
+      <strong style="color:#2d3a4a;font-weight:500;">understanding financial crime         and studying the intersection of technology,finance, and design</strong>.
     </p>
     <p style="font-size:0.92rem;color:#4a5a6a;line-height:2;">
-      I like to build things that are useful and beautiful. Data tells us many             stories, it is a matter of perspective and that is what I like to explore.
+      I like to build things that are impactful and beautiful. Data tells us many          stories, it is a matter of perspective and that is what I like to explore.
     </p>
   </div>
 </div>
+
+<!-- PROJECTS -->
+<div class="site-section">
+
+  <p class="section-eyebrow">Independent Work · Fintech & Financial Crime</p>
+  <h2 class="section-title">Projects</h2>
+
+  <p style="font-size:0.88rem;color:#7a8a9a;margin-bottom:2.5rem;line-height:1.9;">
+    Self-directed explorations across AML typologies, risk analytics, and emerging
+    areas in financial crime — built to go beyond the classroom and demonstrate
+    genuine curiosity about where the field is heading.
+  </p>
 
 
 
