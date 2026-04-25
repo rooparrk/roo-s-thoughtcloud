@@ -60,6 +60,50 @@ page-layout: full
     areas in financial crime — built to go beyond the classroom and demonstrate
     genuine curiosity about where the field is heading.
   </p>
+  
+  <div class="cards-grid">
+
+    <a href="projects/art-pep/index.html" class="course-card">
+      <div class="card-emoji">🎨</div>
+      <div class="card-title">Art Markets & the PEP Problem</div>
+      <div class="card-desc">
+        The art market's opacity makes it a documented vehicle for laundering — 
+        especially among politically exposed persons. This project combines auction 
+        data, ICIJ offshore leaks, and PEP network analysis to visualise how money 
+        and influence move through high-value cultural assets.
+      </div>
+      <span class="card-tag">R · Tableau · ICIJ · AML</span>
+    </a>
+
+    <a href="projects/tbml/index.html" class="course-card">
+      <div class="card-emoji">🚢</div>
+      <div class="card-title">Trade-Based Money Laundering</div>
+      <div class="card-desc">
+        TBML is one of the most significant and least visible ML typologies — 
+        manipulating trade invoices to move value across borders. Using UN Comtrade 
+        mirror trade data, this project surfaces discrepancies across high-risk 
+        corridors and maps them to FATF and MAS typology frameworks.
+      </div>
+      <span class="card-tag">Python · UN Comtrade · FATF</span>
+    </a>
+
+    <a href="projects/crypto/index.html" class="course-card">
+      <div class="card-emoji">🔗</div>
+      <div class="card-title">Crypto & Financial Crime</div>
+      <div class="card-desc">
+        An honest exploration of on-chain analytics and the evolving regulatory 
+        landscape for virtual assets. Part research, part hands-on — tracing 
+        transaction flows, understanding mixer patterns, and mapping where 
+        MAS and FATF guidance currently stands.
+      </div>
+      <span class="card-tag">Python · Etherscan · Research</span>
+    </a>
+
+  </div>
+
+</div>
+```
+
 
 
 
