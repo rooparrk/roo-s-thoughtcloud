@@ -1,0 +1,85 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<div class="site-section">
+
+  <div class="page-header">
+    <p class="page-eyebrow">Exploration · Research & Hands-On · Crypto AML</p>
+    <h1 class="page-title">Crypto & Financial Crime</h1>
+    <p class="page-subtitle">
+      An honest, in-progress exploration of on-chain analytics and the evolving regulatory
+      landscape for virtual assets. Part research, part hands-on — tracing transaction
+      flows on public blockchains, understanding how mixing and layering work in practice,
+      and mapping where MAS and FATF guidance currently stands and where it doesn't.
+    </p>
+  </div>
+
+  <div style="display:flex;gap:0.6rem;flex-wrap:wrap;margin-bottom:2.5rem;">
+    <span class="card-tag">Python</span>
+    <span class="card-tag">Etherscan API</span>
+    <span class="card-tag">On-Chain Analytics</span>
+    <span class="card-tag">MAS Guidelines</span>
+    <span class="card-tag">FATF Virtual Assets</span>
+    <span class="card-tag">Ongoing ✦</span>
+  </div>
+
+  <hr class="about-divider" />
+
+  <h2 class="section-title" style="font-size:1.5rem;margin-bottom:1rem;">Why this, and why this framing</h2>
+  <p style="font-size:0.9rem;line-height:1.95;color:#4a5a6a;margin-bottom:2rem;">
+    Crypto compliance is the fastest-growing area in financial crime, and MAS is actively
+    building its regulatory framework for digital payment token service providers under
+    the Payment Services Act. But it is also genuinely complex — the technology moves
+    faster than regulation, the terminology is contested, and a lot of what's written
+    about it is either too technical or too superficial. This is an exploration, not a
+    finished project. The framing matters: I'd rather show the process of learning
+    something rigorously than pretend to expertise I don't yet have.
+  </p>
+
+  <h2 class="section-title" style="font-size:1.5rem;margin-bottom:1rem;">Research thread</h2>
+  <p style="font-size:0.9rem;line-height:1.95;color:#4a5a6a;margin-bottom:2rem;">
+    The written component maps the current regulatory landscape: FATF's updated virtual
+    asset guidance (2021, revised 2023), the travel rule and its implementation challenges
+    across jurisdictions, MAS's Notice PSN02 and how Singapore's framework compares to
+    the EU's MiCA. It also covers the core AML typologies specific to virtual assets —
+    mixer and tumbler usage, chain-hopping, peer-to-peer networks, and DeFi as a
+    layering vehicle.
+  </p>
+
+  <h2 class="section-title" style="font-size:1.5rem;margin-bottom:1rem;">Hands-on thread</h2>
+  <p style="font-size:0.9rem;line-height:1.95;color:#4a5a6a;margin-bottom:2rem;">
+    Using the Etherscan API and Elliptic's publicly released academic dataset (which
+    contains labelled illicit and licit wallet addresses), the practical component traces
+    transaction flows around known case studies — the Bitfinex hack of 2016 is fully
+    documented on-chain and makes an instructive case study for how large-scale layering
+    actually moves through a public ledger. The goal is a simple flow visualisation and
+    hop analysis, not a predictive model. Seeing the data is the point.
+  </p>
+
+  <div class="cards-grid" style="margin-bottom:2.5rem;">
+    <div class="course-card" style="pointer-events:none;">
+      <div class="card-emoji">🔗</div>
+      <div class="card-title">Etherscan API</div>
+      <div class="card-desc">Public Ethereum transaction data — wallet balances, transfer histories, contract interactions.</div>
+    </div>
+    <div class="course-card" style="pointer-events:none;">
+      <div class="card-emoji">📊</div>
+      <div class="card-title">Elliptic Academic Dataset</div>
+      <div class="card-desc">Labelled Bitcoin transaction graph with known illicit and licit classifications — used in academic research on on-chain anomaly detection.</div>
+    </div>
+    <div class="course-card" style="pointer-events:none;">
+      <div class="card-emoji">📑</div>
+      <div class="card-title">MAS / FATF Guidance</div>
+      <div class="card-desc">Primary source regulatory documents — FATF virtual asset guidance, MAS PSN02, Payment Services Act — forming the research backbone.</div>
+    </div>
+  </div>
+
+  <div style="background:#fdf9f5;border:1px solid #e8d8c8;border-radius:16px;padding:1.5rem 2rem;font-size:0.84rem;color:#7a8a9a;font-style:italic;">
+    ✦ This is a living exploration — research notes, code, and findings will be added here as the work develops.
+  </div>
+
+</div>
+```
