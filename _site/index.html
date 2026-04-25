@@ -160,10 +160,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- HERO — Cloud sunset sky -->
 <section class="hero-section">
 
-  <!-- Soft cloud texture overlay -->
-  <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 40%, rgba(253,246,238,0.35) 0%, transparent 60%), radial-gradient(ellipse at 75% 60%, rgba(200,160,200,0.25) 0%, transparent 55%);pointer-events:none;"></div>
+  <div class="hero-cloud-overlay"></div>
 
-  <!-- Hero content -->
   <div class="hero-content">
     <img src="images/roo-illustration.png" alt="Roo illustration" class="hero-illustration" onerror="this.style.display='none'">
 
@@ -171,10 +169,10 @@ ul.task-list li input[type="checkbox"] {
     <p class="hero-tagline">soft mind, sharp thinking</p>
 
     <div class="hero-pills">
-      <span class="hero-pill">☁️ fintech</span>
-      <span class="hero-pill">🔍 risk &amp; aml</span>
-      <span class="hero-pill">👀 data stories</span>
-      <span class="hero-pill">✨ tech + aesthetics</span>
+      <span class="hero-pill">☁ Fintech</span>
+      <span class="hero-pill">⊕ Risk &amp; AML</span>
+      <span class="hero-pill">·· Data Stories</span>
+      <span class="hero-pill">◈ Tech + Aesthetics</span>
     </div>
 
     <p class="hero-scroll">scroll to explore ↓</p>
@@ -182,72 +180,95 @@ ul.task-list li input[type="checkbox"] {
 
 </section>
 
+<!-- GRADIENT BRIDGE — bleeds hero colour into content -->
+<div class="hero-bridge"></div>
+
 <!-- INTRO -->
-<div class="site-section" style="margin-top:4rem;margin-bottom:0;padding-bottom:0;">
-  <div style="max-width:600px;">
-    <p class="section-eyebrow">Hello</p>
-    <h2 class="section-title anchored" style="margin-bottom:1rem;">I'm Roopa — Roo.</h2>
-    <p style="font-size:0.92rem;color:#4a5a6a;line-height:2;margin-bottom:0.8rem;">
+<div class="intro-section">
+  <div class="intro-inner">
+    <p class="intro-eyebrow">Hello</p>
+    <h2 class="intro-heading anchored">I'm Roopa — Roo.</h2>
+    <div class="intro-rule"></div>
+    <p class="intro-body">
       Masters student at SMU, with an interest in
-      <strong style="color:#2d3a4a;font-weight:500;">understanding financial crime         and studying the intersection of technology,finance, and design</strong>.
-    </p>
-    <p style="font-size:0.92rem;color:#4a5a6a;line-height:2;">
-      I like to build things that are impactful and beautiful. Data tells us many          stories, it is a matter of perspective and that is what I like to explore.
+      <em>understanding financial crime and studying the intersection
+      of technology, finance, and design</em>.
+      I like to build things that are impactful and beautiful —
+      data tells many stories; it is a matter of perspective,
+      and that is what I like to explore.
     </p>
   </div>
 </div>
 
-<!-- PROJECTS -->
-<div class="site-section">
+<!-- PROJECTS — editorial stacked rows -->
+<div class="projects-section">
 
-  <p class="section-eyebrow">Independent Work · Fintech &amp; Financial Crime</p>
-  <h2 class="section-title anchored">Projects</h2>
-
-  <p style="font-size:0.88rem;color:#7a8a9a;margin-bottom:2.5rem;line-height:1.9;">
-    Self-directed explorations across AML typologies, risk analytics, and emerging
-    areas in financial crime — built to go beyond the classroom and demonstrate
-    genuine curiosity about where the field is heading.
-  </p>
-  
-  <div class="cards-grid">
-
-    <a href="projects/art-pep/index.html" class="course-card">
-      <div class="card-emoji">🎨</div>
-      <div class="card-title">Art Markets &amp; the PEP Problem</div>
-      <div class="card-desc">
-        The art market's opacity makes it a documented vehicle for laundering — 
-        especially among politically exposed persons. This project combines auction 
-        data, ICIJ offshore leaks, and PEP network analysis to visualise how money 
-        and influence move through high-value cultural assets.
-      </div>
-      <span class="card-tag">R · Tableau · ICIJ · AML</span>
-    </a>
-
-    <a href="projects/tbml/index.html" class="course-card">
-      <div class="card-emoji">🚢</div>
-      <div class="card-title">Trade-Based Money Laundering</div>
-      <div class="card-desc">
-        TBML is one of the most significant and least visible ML typologies — 
-        manipulating trade invoices to move value across borders. Using UN Comtrade 
-        mirror trade data, this project surfaces discrepancies across high-risk 
-        corridors and maps them to FATF and MAS typology frameworks.
-      </div>
-      <span class="card-tag">Python · UN Comtrade · FATF</span>
-    </a>
-
-    <a href="projects/crypto/index.html" class="course-card">
-      <div class="card-emoji">🔗</div>
-      <div class="card-title">Crypto &amp; Financial Crime</div>
-      <div class="card-desc">
-        An honest exploration of on-chain analytics and the evolving regulatory 
-        landscape for virtual assets. Part research, part hands-on — tracing 
-        transaction flows, understanding mixer patterns, and mapping where 
-        MAS and FATF guidance currently stands.
-      </div>
-      <span class="card-tag">Python · Etherscan · Research</span>
-    </a>
-
+  <div class="projects-header">
+    <p class="projects-eyebrow">Independent Work · Fintech &amp; Financial Crime</p>
+    <h2 class="projects-heading anchored">Projects</h2>
+    <p class="projects-subhead">
+      Self-directed explorations across AML typologies, risk analytics,
+      and emerging areas in financial crime — built to go beyond the classroom
+      and demonstrate genuine curiosity about where the field is heading.
+    </p>
   </div>
+
+  <!-- Project 01 -->
+  <a href="projects/art-pep/index.html" class="project-row">
+    <div class="project-index">01</div>
+    <div class="project-body">
+      <div class="project-meta">
+        <span class="project-domain">Art Markets · PEP Networks</span>
+        <span class="project-tools">R · Tableau · ICIJ · AML</span>
+      </div>
+      <h3 class="project-title anchored">Art Markets &amp; the PEP Problem</h3>
+      <p class="project-desc">
+        The art market's opacity makes it a documented vehicle for laundering —
+        especially among politically exposed persons. Combining auction data,
+        ICIJ offshore leaks, and PEP network analysis to visualise how money
+        and influence move through high-value cultural assets.
+      </p>
+    </div>
+    <div class="project-arrow">→</div>
+  </a>
+
+  <!-- Project 02 -->
+  <a href="projects/tbml/index.html" class="project-row">
+    <div class="project-index">02</div>
+    <div class="project-body">
+      <div class="project-meta">
+        <span class="project-domain">Trade Finance · Mirror Analysis</span>
+        <span class="project-tools">Python · UN Comtrade · FATF</span>
+      </div>
+      <h3 class="project-title anchored">Trade-Based Money Laundering</h3>
+      <p class="project-desc">
+        TBML is one of the most significant and least visible ML typologies —
+        manipulating trade invoices to move value across borders. Using UN Comtrade
+        mirror trade data, this project surfaces discrepancies across high-risk
+        corridors and maps them to FATF and MAS Notice 626 frameworks.
+      </p>
+    </div>
+    <div class="project-arrow">→</div>
+  </a>
+
+  <!-- Project 03 -->
+  <a href="projects/crypto/index.html" class="project-row">
+    <div class="project-index">03</div>
+    <div class="project-body">
+      <div class="project-meta">
+        <span class="project-domain">On-Chain Analytics · Regulation</span>
+        <span class="project-tools">Python · Etherscan · Research</span>
+      </div>
+      <h3 class="project-title anchored">Crypto &amp; Financial Crime</h3>
+      <p class="project-desc">
+        An honest exploration of on-chain analytics and the evolving regulatory
+        landscape for virtual assets. Part research, part hands-on — tracing
+        transaction flows, understanding mixer patterns, and mapping where
+        MAS and FATF guidance currently stands.
+      </p>
+    </div>
+    <div class="project-arrow">→</div>
+  </a>
 
 </div>
 
