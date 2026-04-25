@@ -10,7 +10,7 @@ website:
     logo: images/logo.png
     title: "Roo's Thoughtcloud"
     left:
-      - text: "<i class='fa-solid fa-house-chimney'></i>"
+      - icon: house
         href: index.qmd
         aria-label: Home
       - text: "About"
