@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>roo’s thoughtcloud</title>
+<title>Roo’s Thoughtcloud</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -65,6 +30,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -103,6 +69,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -116,9 +85,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">roo’s thoughtcloud</span>
+    <span class="navbar-title">Roo’s Thoughtcloud</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -129,11 +100,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">{{&lt; fa house-chimney &gt;}}</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./projects/art-pep/index.html">
+ <span class="dropdown-text">Art Markets &amp; the PEP Problem</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/tbml/index.html">
+ <span class="dropdown-text">Trade-Based Money Laundering</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/crypto/index.html">
+ <span class="dropdown-text">Crypto &amp; Financial Crime</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/roopa-kaustubha-rayudu-53ba5216b/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rooparrk"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -143,41 +145,108 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">roo’s thoughtcloud</h1>
-</div>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+<!-- HERO — Cloud sunset sky -->
+<section class="hero-section">
+
+  <!-- Soft cloud texture overlay -->
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 40%, rgba(253,246,238,0.35) 0%, transparent 60%), radial-gradient(ellipse at 75% 60%, rgba(200,160,200,0.25) 0%, transparent 55%);pointer-events:none;"></div>
+
+  <!-- Hero content -->
+  <div class="hero-content">
+    <img src="images/roo-illustration.png" alt="Roo illustration" class="hero-illustration" onerror="this.style.display='none'">
+
+    <h1 class="hero-name">Roo</h1>
+    <p class="hero-tagline">soft mind, sharp thinking</p>
+
+    <div class="hero-pills">
+      <span class="hero-pill">☁️ fintech</span>
+      <span class="hero-pill">🔍 risk &amp; aml</span>
+      <span class="hero-pill">👀 data stories</span>
+      <span class="hero-pill">✨ tech + aesthetics</span>
+    </div>
+
+    <p class="hero-scroll">scroll to explore ↓</p>
   </div>
-  
 
+</section>
 
-</header>
-
-
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<!-- INTRO -->
+<div class="site-section" style="margin-top:4rem;margin-bottom:0;padding-bottom:0;">
+  <div style="max-width:600px;">
+    <p class="section-eyebrow">Hello</p>
+    <h2 class="section-title anchored" style="margin-bottom:1rem;">I'm Roopa — Roo.</h2>
+    <p style="font-size:0.92rem;color:#4a5a6a;line-height:2;margin-bottom:0.8rem;">
+      Masters student at SMU, with an interest in
+      <strong style="color:#2d3a4a;font-weight:500;">understanding financial crime         and studying the intersection of technology,finance, and design</strong>.
+    </p>
+    <p style="font-size:0.92rem;color:#4a5a6a;line-height:2;">
+      I like to build things that are impactful and beautiful. Data tells us many          stories, it is a matter of perspective and that is what I like to explore.
+    </p>
+  </div>
 </div>
+
+<!-- PROJECTS -->
+<div class="site-section">
+
+  <p class="section-eyebrow">Independent Work · Fintech &amp; Financial Crime</p>
+  <h2 class="section-title anchored">Projects</h2>
+
+  <p style="font-size:0.88rem;color:#7a8a9a;margin-bottom:2.5rem;line-height:1.9;">
+    Self-directed explorations across AML typologies, risk analytics, and emerging
+    areas in financial crime — built to go beyond the classroom and demonstrate
+    genuine curiosity about where the field is heading.
+  </p>
+  
+  <div class="cards-grid">
+
+    <a href="projects/art-pep/index.html" class="course-card">
+      <div class="card-emoji">🎨</div>
+      <div class="card-title">Art Markets &amp; the PEP Problem</div>
+      <div class="card-desc">
+        The art market's opacity makes it a documented vehicle for laundering — 
+        especially among politically exposed persons. This project combines auction 
+        data, ICIJ offshore leaks, and PEP network analysis to visualise how money 
+        and influence move through high-value cultural assets.
+      </div>
+      <span class="card-tag">R · Tableau · ICIJ · AML</span>
+    </a>
+
+    <a href="projects/tbml/index.html" class="course-card">
+      <div class="card-emoji">🚢</div>
+      <div class="card-title">Trade-Based Money Laundering</div>
+      <div class="card-desc">
+        TBML is one of the most significant and least visible ML typologies — 
+        manipulating trade invoices to move value across borders. Using UN Comtrade 
+        mirror trade data, this project surfaces discrepancies across high-risk 
+        corridors and maps them to FATF and MAS typology frameworks.
+      </div>
+      <span class="card-tag">Python · UN Comtrade · FATF</span>
+    </a>
+
+    <a href="projects/crypto/index.html" class="course-card">
+      <div class="card-emoji">🔗</div>
+      <div class="card-title">Crypto &amp; Financial Crime</div>
+      <div class="card-desc">
+        An honest exploration of on-chain analytics and the evolving regulatory 
+        landscape for virtual assets. Part research, part hands-on — tracing 
+        transaction flows, understanding mixer patterns, and mapping where 
+        MAS and FATF guidance currently stands.
+      </div>
+      <span class="card-tag">Python · Etherscan · Research</span>
+    </a>
+
+  </div>
+
 </div>
 
 
@@ -584,6 +653,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><span class="footer-text">Roo’s Thoughtcloud ☁️ · soft mind, sharp thinking · 2025</span></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
