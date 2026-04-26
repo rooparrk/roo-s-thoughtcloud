@@ -158,33 +158,131 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="proj-page">
-<header class="proj-header">
-<div class="proj-header-inner">
-<pre><code>  &lt;div class="proj-back"&gt;
-    &lt;a href="../../index.html" class="proj-back-link"&gt;← All Projects&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;p class="proj-eyebrow"&gt;Exploration · Research &amp;amp; Hands-On · Crypto AML&lt;/p&gt;
-  &lt;h1 class="proj-title"&gt;Crypto &amp;amp; Financial Crime&lt;/h1&gt;
-  &lt;p class="proj-subtitle"&gt;
-  An honest, in-progress exploration of on-chain analytics and evolving regulatory lanscape for        virtual assests. Part research, part hands-on, tracing transaction flows on public blokchains,       understanding how mixing and layering works in practice, and mapping where MAS and FATF              guidance currently stands and where it doesn't.
-  &lt;/p&gt;
-  &lt;div class="proj-header-rule"&gt;&lt;/div&gt;
-  &lt;div class="proj-tag-row"&gt;
-    &lt;span class="proj-tag"&gt;Python&lt;/span&gt;
-    &lt;span class="proj-tag"&gt;Etherscan API&lt;/span&gt;
-    &lt;span class="proj-tag"&gt;On-Chain Analytics&lt;/span&gt;
-    &lt;span class="proj-tag"&gt;MAS Guidelines&lt;/span&gt;
-    &lt;span class="proj-tag"&gt;FATF Virtual Assets&lt;/span&gt;
-    &lt;span class="proj-tag proj-tag--status"&gt;Ongoing ◉&lt;/span&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</div></header>
 
+  <header class="proj-header">
+    <div class="proj-header-inner">
+      <div class="proj-back">
+        <a href="../../index.html" class="proj-back-link">← All Projects</a>
+      </div>
+      <p class="proj-eyebrow">Exploration · Research &amp; Hands-On · Crypto AML</p>
+      <h1 class="proj-title">Crypto &amp; Financial Crime</h1>
+      <p class="proj-subtitle">
+        An honest, in-progress exploration of on-chain analytics and the evolving
+        regulatory landscape for virtual assets. Part research, part hands-on —
+        tracing transaction flows on public blockchains, understanding how mixing
+        and layering work in practice, and mapping where MAS and FATF guidance
+        currently stands and where it doesn't.
+      </p>
+  </div></header>
+
+  <!-- BODY -->
+  <div class="proj-body">
+
+    <!-- Section 1 -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">I</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title anchored">Why this, and why this framing</h2>
+        <p class="proj-prose">
+          Crypto compliance is the fastest-growing area in financial crime, and MAS is
+          actively building its regulatory framework for digital payment token service
+          providers under the Payment Services Act. But it is also genuinely complex —
+          the technology moves faster than regulation, the terminology is contested, and
+          a lot of what's written about it is either too technical or too superficial.
+        </p>
+        <p class="proj-prose">
+          This is an exploration, not a finished project. The framing matters: I'd rather
+          show the process of learning something rigorously than pretend to expertise I
+          don't yet have.
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">II</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title anchored">Research thread</h2>
+        <p class="proj-prose">
+          The written component maps the current regulatory landscape: FATF's updated
+          virtual asset guidance (2021, revised 2023), the travel rule and its
+          implementation challenges across jurisdictions, MAS's Notice PSN02 and how
+          Singapore's framework compares to the EU's MiCA. It also covers the core AML
+          typologies specific to virtual assets — mixer and tumbler usage, chain-hopping,
+          peer-to-peer networks, and DeFi as a layering vehicle.
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">III</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title anchored">Hands-on thread</h2>
+        <p class="proj-prose">
+          Using the Etherscan API and Elliptic's publicly released academic dataset
+          (which contains labelled illicit and licit wallet addresses), the practical
+          component traces transaction flows around known case studies — the Bitfinex
+          hack of 2016 is fully documented on-chain and makes an instructive case study
+          for how large-scale layering actually moves through a public ledger. The goal
+          is a simple flow visualisation and hop analysis, not a predictive model.
+          Seeing the data is the point.
+        </p>
+
+        <!-- Source rows -->
+        <div class="proj-sources">
+          <p class="proj-sources-label">Data Sources</p>
+          <div class="proj-source-row">
+            <div class="proj-source-index">01</div>
+            <div class="proj-source-body">
+              <p class="proj-source-name">Etherscan API</p>
+              <p class="proj-source-desc">Public Ethereum transaction data — wallet balances, transfer histories, contract interactions.</p>
+            </div>
+          </div>
+          <div class="proj-source-row">
+            <div class="proj-source-index">02</div>
+            <div class="proj-source-body">
+              <p class="proj-source-name">Elliptic Academic Dataset</p>
+              <p class="proj-source-desc">Labelled Bitcoin transaction graph with known illicit and licit classifications — used in academic research on on-chain anomaly detection.</p>
+            </div>
+          </div>
+          <div class="proj-source-row">
+            <div class="proj-source-index">03</div>
+            <div class="proj-source-body">
+              <p class="proj-source-name">MAS / FATF Guidance</p>
+              <p class="proj-source-desc">Primary source regulatory documents — FATF virtual asset guidance, MAS PSN02, Payment Services Act — forming the research backbone.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Living notice -->
+    <div class="proj-notice">
+      <span class="proj-notice-mark">✦</span>
+      <p class="proj-notice-text">
+        <em>This is a living exploration — research notes, code, and findings
+        will be added here as the work develops.</em>
+      </p>
+    </div>
+
+  </div>
 
 </div>
-</main></div>
 
- <!-- /main -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -585,7 +683,7 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

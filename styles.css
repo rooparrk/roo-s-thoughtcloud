@@ -1,5 +1,9 @@
 /* css styles */
 
+.page-layout-custom {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 :root {
   --cloud-bg:         #f0ebe3;
@@ -121,16 +125,6 @@ a {
   z-index: 2;
   text-align: center;
   padding: 2rem;
-}
-
-.hero-illustration {
-  width: 172px;
-  height: 172px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 1.5px solid rgba(253, 246, 238, 0.5);
-  margin-bottom: 2rem;
-  box-shadow: 0 0 60px rgba(210, 120, 80, 0.22);
 }
 
 .hero-name {
