@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – Roo’s Thoughtcloud</title>
+<title>index – Roo's Thoughtcloud</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -152,27 +152,163 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">index</h1>
-</div>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta column-page">
 
-    
-  
-    
+<div class="proj-page">
+
+  <!-- PAGE HEADER -->
+  <header class="proj-header">
+    <div class="proj-header-inner">
+      <div class="proj-back">
+        <a href="../../index.html" class="proj-back-link">← All Projects</a>
+      </div>
+      <p class="proj-eyebrow">Visual Analytics · Network Analysis · AML Typologies</p>
+      <h1 class="proj-title">Art Markets &amp; the PEP Problem</h1>
+      <p class="proj-subtitle">
+        The art market's opacity makes it a documented vehicle for laundering —
+        especially among politically exposed persons. This project combines auction
+        data, ICIJ offshore leaks, and PEP network analysis to visualise how money
+        and influence move through high-value cultural assets.
+      </p>
+      <div class="proj-header-rule"></div>
+      <div class="proj-tag-row">
+        <span class="proj-tag">R</span>
+        <span class="proj-tag">Tableau</span>
+        <span class="proj-tag">ICIJ Offshore Leaks</span>
+        <span class="proj-tag">Network Analysis</span>
+        <span class="proj-tag">FATF Typologies</span>
+        <span class="proj-tag proj-tag--status">In Progress ◎</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- BODY -->
+  <div class="proj-body">
+
+    <!-- Section 1 -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">I</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title anchored">Why the art market</h2>
+        <p class="proj-prose">
+          Art is unusual as an asset class: it is portable, subjective in value,
+          and largely unregulated compared to financial instruments of equivalent worth.
+          The FATF's 2023 guidance on art market money laundering is explicit — auction
+          houses, galleries, and freeport storage facilities represent a documented
+          typology vector, particularly for PEPs seeking to move and obscure wealth
+          across jurisdictions without triggering standard financial monitoring.
+        </p>
+        <p class="proj-prose">
+          The connection between art markets and PEPs is not theoretical. The Panama
+          and Pandora Papers contain documented examples of offshore structures used
+          to purchase high-value art, with ownership deliberately obscured through
+          shell companies and nominee arrangements. This project is an attempt to
+          surface that pattern analytically.
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">II</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title anchored">Method &amp; approach</h2>
+        <p class="proj-prose">
+          The project works across three linked analytical threads: price anomaly
+          detection in public auction records, geographic mapping of freeport flows
+          (Geneva, Singapore, Luxembourg, Delaware), and cross-referencing against
+          ICIJ offshore entity data and the OpenSanctions PEP database to identify
+          counterparty overlap.
+        </p>
+        <p class="proj-prose">
+          Where a named auction buyer or seller appears in both public art market
+          records and ICIJ offshore data — or maps to a known PEP entity — that
+          intersection becomes the unit of analysis. The output is not a legal
+          accusation; it's a demonstration of what the data makes visible when
+          you connect sources that are rarely put side by side.
+        </p>
+
+        <!-- Method rows -->
+        <div class="proj-sources">
+          <p class="proj-sources-label">Data Sources</p>
+          <div class="proj-source-row">
+            <div class="proj-source-index">01</div>
+            <div class="proj-source-body">
+              <p class="proj-source-name">ICIJ Offshore Leaks Database</p>
+              <p class="proj-source-desc">Panama Papers, Pandora Papers — offshore entity structures, beneficial ownership networks, and jurisdiction mapping.</p>
+            </div>
+          </div>
+          <div class="proj-source-row">
+            <div class="proj-source-index">02</div>
+            <div class="proj-source-body">
+              <p class="proj-source-name">Public Auction Records</p>
+              <p class="proj-source-desc">Christie's and Sotheby's publicly available sale results — lot prices, sale dates, buyer/seller regions for anomaly analysis.</p>
+            </div>
+          </div>
+          <div class="proj-source-row">
+            <div class="proj-source-index">03</div>
+            <div class="proj-source-body">
+              <p class="proj-source-name">OpenSanctions PEP Database</p>
+              <p class="proj-source-desc">Structured dataset of politically exposed persons across jurisdictions — used for counterparty cross-referencing and network construction.</p>
+            </div>
+          </div>
+          <div class="proj-source-row">
+            <div class="proj-source-index">04</div>
+            <div class="proj-source-body">
+              <p class="proj-source-name">Basel Art Market Report</p>
+              <p class="proj-source-desc">Annual market sizing and geographic flow data — contextual baseline for understanding scale and opacity of the global art trade.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">III</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title anchored">Expected output</h2>
+        <p class="proj-prose">
+          An interactive Tableau dashboard visualising auction price anomalies and
+          geographic freeport flows alongside an R network visualisation of PEP
+          counterparty connections. The written analysis maps findings to FATF's
+          2023 art market ML typology guidance — grounding the visual work in
+          regulatory vocabulary relevant to CDD and EDD practice.
+        </p>
+        <p class="proj-prose">
+          The goal is not to reinvent forensic accounting. It is to show what becomes
+          visible when you combine public data sources with AML typology thinking —
+          and to practice the kind of cross-source analysis that underlies real
+          financial crime intelligence work.
+        </p>
+      </div>
+    </div>
+
+    <!-- Living notice -->
+    <div class="proj-notice">
+      <span class="proj-notice-mark">✦</span>
+      <p class="proj-notice-text">
+        <em>Work in progress — visualisations and full analysis will be published
+        here as the project develops.</em>
+      </p>
+    </div>
+
   </div>
-  
 
-
-</header>
-
-
+</div>
 
 
 
