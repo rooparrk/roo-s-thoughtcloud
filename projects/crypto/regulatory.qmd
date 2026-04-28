@@ -1,8 +1,30 @@
 ---
-title: ""
+title: "Regulatory Landscape"
 format:
   html:
     page-layout: custom
     title-block-banner: false
 ---
 
+```{=html}
+<div class="proj-page">
+
+  <div class="proj-back">
+    <a href="/projects/crypto/" class="proj-back-link">← Crypto &amp; Financial Crime</a>
+  </div>
+
+  <div class="proj-header">
+    <div class="proj-header-inner">
+      <p class="proj-eyebrow">Research Thread · Regulatory Landscape</p>
+      <h1 class="proj-title">Virtual Assets &amp; the AML Regime</h1>
+      <p class="proj-subtitle">How FATF, Singapore, and the EU are trying to regulate what they can barely see</p>
+      <hr class="proj-header-rule">
+      <div class="proj-tag-row">
+        <span class="proj-tag">FATF R.15</span>
+        <span class="proj-tag">MAS PSN02</span>
+        <span class="proj-tag">MiCA · TFR</span>
+        <span class="proj-tag">Travel Rule</span>
+        <span class="proj-tag proj-tag--status">Draft in progress ◉</span>
+      </div>
+    </div>
+  </div>
