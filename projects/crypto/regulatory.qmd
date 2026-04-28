@@ -1,0 +1,8 @@
+---
+title: ""
+format:
+  html:
+    page-layout: custom
+    title-block-banner: false
+---
+
