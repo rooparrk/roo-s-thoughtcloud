@@ -28,3 +28,19 @@ format:
       </div>
     </div>
   </div>
+
+  <div class="proj-body">
+
+    <!-- SECTION I -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">I</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title">The Structural Problem</h2>
+        <div class="proj-prose">
+          <p><em>Coming soon — why crypto breaks conventional AML logic. Pseudonymity at the address level, instant cross-border transfer with no correspondent banking layer, programmable obfuscation, and a global ledger that is simultaneously transparent and hard to attribute.</em></p>
+        </div>
+      </div>
+    </div>
