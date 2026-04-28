@@ -37,7 +37,7 @@ page-layout: full
 
   <!-- Identity -->
   <div class="obs-header">
-    <p class="obs-eyebrow">Roo's Observatory · Est. 2025</p>
+    <p class="obs-eyebrow">Roo's Observatory · Est. 2026</p>
     <h1 class="obs-title">Roopa Kaustubha <em>Rayudu</em></h1>
     <p class="obs-subtitle">soft mind, sharp thinking</p>
     <p class="obs-note">
