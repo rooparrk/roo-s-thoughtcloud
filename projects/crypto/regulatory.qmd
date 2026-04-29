@@ -44,3 +44,31 @@ format:
         </div>
       </div>
     </div>
+
+    <!-- SECTION II -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">II</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title">FATF and the Attempt at Global Standard-Setting</h2>
+        <div class="proj-prose">
+          <p><em>Coming soon — Recommendation 15, the Travel Rule, and the 2023 finding that 75% of jurisdictions remain only partially or non-compliant. The gap between standard-setting and real-world implementation is itself the story.</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION III -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">III</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title">Singapore's Approach</h2>
+        <div class="proj-prose">
+          <p><em>Coming soon — MAS PSN02, the Digital Payment Token licensing regime under the Payment Services Act, and how the Travel Rule lands in practice at the S$1,500 threshold.</em></p>
+        </div>
+      </div>
+    </div>
