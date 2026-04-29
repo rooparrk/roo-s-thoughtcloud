@@ -391,22 +391,27 @@ a {
 /* Hover effect for linked source rows in project pages */
 .proj-source-row:has(a) {
   cursor: pointer;
-  transition: background 0.2s ease, border-color 0.2s ease;
+  transition: background var(--transition);
 }
 
 .proj-source-row:has(a):hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(253, 249, 245, 0.8);
   border-radius: 4px;
+  margin: 0 -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
+.proj-source-row:has(a):hover .proj-source-name,
 .proj-source-row:has(a):hover .proj-source-name a {
-  color: var(--color-rose, #c17b6b);
-  transition: color 0.2s ease;
+  color: var(--cloud-rose);
+  transition: color var(--transition);
 }
 
 .proj-source-row:has(a):hover .proj-source-index {
-  color: var(--color-rose, #c17b6b);
-  transition: color 0.2s ease;
+  color: var(--cloud-rose, #c17b6b);
+  opacity: 1;
+  transition: color var(--transition), opacity var(--transition);
 }
 
 /* Site sections(below hero page) */
