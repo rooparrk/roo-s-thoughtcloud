@@ -388,6 +388,27 @@ a {
   justify-self: end;
 }
 
+/* Hover effect for linked source rows in project pages */
+.proj-source-row:has(a) {
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.proj-source-row:has(a):hover {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.proj-source-row:has(a):hover .proj-source-name a {
+  color: var(--color-rose, #c17b6b);
+  transition: color 0.2s ease;
+}
+
+.proj-source-row:has(a):hover .proj-source-index {
+  color: var(--color-rose, #c17b6b);
+  transition: color 0.2s ease;
+}
+
 /* Site sections(below hero page) */
 .site-section {
   max-width: 900px;
