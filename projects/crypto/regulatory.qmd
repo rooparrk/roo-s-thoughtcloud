@@ -1,5 +1,5 @@
 ---
-title: "Regulatory Landscape"
+title: ""
 format:
   html:
     page-layout: custom
@@ -100,6 +100,35 @@ format:
         </div>
       </div>
     </div>
+    
+    <!-- SECTION VI -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">VI</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title">The Typologies</h2>
+        <div class="proj-prose">
+          <p><em>Coming soon — what regulation is actually chasing: mixer and tumbler usage, chain-hopping, DeFi as a layering vehicle, and exploitation of P2P networks. Ties into the on-chain case study.</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION VII -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">VII</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title">Where This Goes</h2>
+        <div class="proj-prose">
+          <p><em>Coming soon — open questions, honest unknowns. A student's view, not a policy prescription. What I now know I don't know.</em></p>
+        </div>
+      </div>
+    </div>
+
     <!-- LIVING NOTICE -->
     <div class="proj-notice">
       <span class="proj-notice-mark">◉</span>
