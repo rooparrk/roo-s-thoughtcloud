@@ -72,3 +72,40 @@ format:
         </div>
       </div>
     </div>
+
+    <!-- SECTION IV -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">IV</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title">The EU's Bet</h2>
+        <div class="proj-prose">
+          <p><em>Coming soon — MiCA, the Transfer of Funds Regulation, and the case for a unified 27-country passport with no de minimis Travel Rule threshold. How the 18-month grandfathering period creates an interim patchwork.</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION V -->
+    <div class="proj-section">
+      <div class="proj-section-marker">
+        <span class="proj-section-num">V</span>
+        <div class="proj-section-line"></div>
+      </div>
+      <div class="proj-section-content">
+        <h2 class="proj-section-title">Comparing the Two</h2>
+        <div class="proj-prose">
+          <p><em>Coming soon — different jurisdictions, different bets. Enforcement capacity, supervisory philosophy, and the question of which model travels well to mid-size emerging market regulators.</em></p>
+        </div>
+      </div>
+    </div>
+    <!-- LIVING NOTICE -->
+    <div class="proj-notice">
+      <span class="proj-notice-mark">◉</span>
+      <p class="proj-notice-text">This piece is being written in stages as the research develops. Sections will be published as they are ready. Last updated: April 2026.</p>
+    </div>
+
+  </div>
+</div>
+```
